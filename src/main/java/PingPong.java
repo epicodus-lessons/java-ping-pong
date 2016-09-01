@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class PingPong {
 
-  public runPingPong(int countUpTo){
-
+  public List<Object> runPingPong(int countUpTo){
+    List<Object> result = new ArrayList<Object>();
+    return result;
   }
 
 }
