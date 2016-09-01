@@ -5,7 +5,10 @@ public class PingPongTest {
 
   @Test
   public void runPingPong_countUpToOne_ArrayList() {
-    // contents of test will eventually go here.
+    PingPong testPingPong = new PingPong();
+    List<Object> expectedOutput = new ArrayList<Object>();
+    expectedOutput.add(1);
+    assertEquals(expectedOutput, testPingPong.runPingPong(1));
   }
 
 }
