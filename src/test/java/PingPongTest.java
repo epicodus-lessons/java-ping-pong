@@ -13,4 +13,13 @@ public class PingPongTest {
     assertEquals(expectedOutput, testPingPong.runPingPong(1));
   }
 
+  @Test
+  public void runPingPong_countUpToGivenNumber_ArrayList() {
+   PingPong testPingPong = new PingPong();
+   List<Object> expectedOutput = new ArrayList<Object>();
+   expectedOutput.add(1);
+   expectedOutput.add(2);
+   assertEquals(expectedOutput, testPingPong.runPingPong(2));
+ }
+
 }
