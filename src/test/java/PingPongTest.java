@@ -25,7 +25,7 @@ public class PingPongTest {
   @Test
   public void runPingPong_replaceMultiplesOf3_ArrayList() {
     PingPong testPingPong = new PingPong();
-    ArrayList<Object> expected = new ArrayList<Object>();
+    ArrayList<Object> expectedOutput = new ArrayList<Object>();
     expectedOutput.add(1);
     expectedOutput.add(2);
     expectedOutput.add("ping");
